@@ -20,6 +20,17 @@ impl ops::Mul for Complex {
     }
 }
 
+impl ops::Mul<f64> for Complex {
+    type Output = Self;
+
+    fn mul(self, rhs: f64) -> Self {
+         return Complex{
+            r: self.r*rhs,
+            i: self.i*rhs
+        };
+    }
+}
+
 impl ops::Add for Complex {
     type Output = Self;
 
@@ -67,5 +78,6 @@ fn main() {
                 print!("{} {} {}\n", col, 0, 0);
             }
         }
+ 
     }
 }
