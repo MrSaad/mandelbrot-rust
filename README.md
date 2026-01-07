@@ -1,3 +1,17 @@
-# mandelbrot-rust
+# Mandelbrot Rust
 
-Implementing mandelbrot set in Rust as a means to learn the language
+A simple Mandelbrot set generator implemented in Rust.
+
+![Sample Output](sample/sample.png)
+
+## Prerequisites
+
+- [Rust](https://www.rust-lang.org/tools/install)
+
+## Run
+
+Generate the Mandelbrot set image (convert to .png for viewing):
+
+```bash
+cargo run --release > output.ppm
+```
