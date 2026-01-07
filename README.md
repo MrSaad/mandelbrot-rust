@@ -2,7 +2,7 @@
 
 A simple Mandelbrot set generator implemented in Rust.
 
-![Sample Output](sample/sample.png)
+![Sample Output](sample/output.png)
 
 ## Prerequisites
 
